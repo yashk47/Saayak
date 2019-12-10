@@ -39,9 +39,9 @@ class Footer extends Component{
                                 <div className="footer-widget">
                                     <h4 className="footer-widget__title">Mail</h4>
                                     <ul className="footer-widget__content">
+                                    <li>komal@sayakk.com</li>
                                     <li> avinash@sayakk.com</li>
                                     <li>dinesh@sayakk.com</li>
-                                    <li>komal@sayakk.com</li>
                                     </ul>
                                 </div>
                                 </div>
