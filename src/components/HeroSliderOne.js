@@ -29,9 +29,9 @@ class HeroSliderOne extends Component{
         };
 
         let data = [
-            {bgImg: 'slider3.jpg', sliderTitle: 'Our Application Is Coming SOON', sliderSubtitle: 'We are commited to be the leading WORLD CLASS LOGISTIC.', btnLink: 'contact-us'},
-            {bgImg: 'slider2.jpg', sliderTitle: 'Our Application Is Coming SOON', sliderSubtitle: 'We are commited to be the leading WORLD CLASS LOGISTIC.', btnLink: 'contact-us'},
-            {bgImg: 'slider1.jpg', sliderTitle: 'Our Application Is Coming SOON', sliderSubtitle: 'We are commited to be the leading WORLD CLASS LOGISTIC.', btnLink: 'contact-us'}
+            {bgImg: 'slider3.jpg', sliderTitle: 'Our APP Is Coming SOON', sliderSubtitle: 'We are commited to be the leading WORLD CLASS LOGISTIC.', btnLink: 'contact-us'},
+            {bgImg: 'slider2.jpg', sliderTitle: 'Our APP Is Coming SOON', sliderSubtitle: 'We are commited to be the leading WORLD CLASS LOGISTIC.', btnLink: 'contact-us'},
+            {bgImg: 'slider1.jpg', sliderTitle: 'Our APP Is Coming SOON', sliderSubtitle: 'We are commited to be the leading WORLD CLASS LOGISTIC.', btnLink: 'contact-us'}
         ];
 
         let DataList = data.map((val, i)=>{
