@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import { MDBIcon} from 'mdbreact';
+
 
 class Footer extends Component{
     render(){
@@ -27,7 +29,7 @@ class Footer extends Component{
                                 <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
                                 {/* footer widget */}
                                 <div className="footer-widget">
-                                    <h4 className="footer-widget__title">Phone</h4>
+                                    <h4 className="footer-widget__title">Phone <MDBIcon icon="phone-square-alt" /></h4>
                                     <ul className="footer-widget__content">
                                     <li> +91 94627 89480</li>
                                     <li> +91 99508 75201</li>
@@ -37,10 +39,10 @@ class Footer extends Component{
                                 <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
                                 {/* footer widget */}
                                 <div className="footer-widget">
-                                    <h4 className="footer-widget__title">Mail</h4>
+                                    <h4 className="footer-widget__title">Mail <MDBIcon far icon="envelope-open" /></h4>
                                     <ul className="footer-widget__content">
                                     <li>komal@sayakk.com</li>
-                                    <li> avinash@sayakk.com</li>
+                                    <li>avinash@sayakk.com</li>
                                     <li>dinesh@sayakk.com</li>
                                     </ul>
                                 </div>
@@ -48,13 +50,14 @@ class Footer extends Component{
                                 <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
                                 {/* footer widget */}
                                 <div className="footer-widget mb-0">
-                                    <h4 className="footer-widget__title">Address</h4>
+                                    <h4 className="footer-widget__title">Address <MDBIcon icon="map-marked-alt" /></h4>
                                     <div className="footer-widget__content">
-                                    <p className="address">Your address goes here, Rajasthan, India.</p>
+                                    <p className="address">Sayakk Logistics Solution Private Limited.</p>  
+                                    <p className="address">D-285, Agarsen Nagar, Churu, Rajasthan, India (331001).</p>
                                     <ul className="contact-details">
                                         {/* <li><span>P:</span>99 55 66 88 526</li>
                                         <li><span>F:</span>55 44 77 62</li> */}
-                                        <li><span>E:</span>help@sayakk.com</li>
+                                        <li><span><MDBIcon far icon="envelope-open" /></span>help@sayakk.com</li>
                                     </ul>
                                     </div>
                                 </div>
@@ -66,7 +69,7 @@ class Footer extends Component{
                     </div>
                         <div className="footer-copyright-wrapper">
                         <div className="footer-copyright text-center">
-                        Copyright © 2019. All right reserved
+                        Copyright © 2020. All right reserved
                         </div>
                     </div>
                 </div>

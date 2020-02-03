@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { MDBIcon} from 'mdbreact';
 
 
 class MobileMenu extends Component{
@@ -23,8 +24,8 @@ class MobileMenu extends Component{
                             <li>
                             <a href={`${process.env.PUBLIC_URL}/`}>Home</a>
                             </li>
-                            {/* <li><a href={`${process.env.PUBLIC_URL}/about-us`}>ABOUT</a></li>
-                            <li className="menu-item-has-children">
+                            <li><a href={`${process.env.PUBLIC_URL}/about-us`}>About US</a></li>
+                            {/* <li className="menu-item-has-children">
                                 <a href={`${process.env.PUBLIC_URL}/services`}>SERVICE</a>
                                 <ul className="sub-menu">
                                     <li><a href={`${process.env.PUBLIC_URL}/services`}>Service Page</a></li>
@@ -48,7 +49,7 @@ class MobileMenu extends Component{
                                     <li><a href={`${process.env.PUBLIC_URL}/blog-details-right-sidebar`}>Blog Details Right Sidebar</a></li>
                                 </ul>
                             </li> */}
-                            <li><a href={`${process.env.PUBLIC_URL}/contact-us`}>CONTACT US</a> </li>
+                            <li><a href={`${process.env.PUBLIC_URL}/contact-us`}>Contact Us</a> </li>
                             </ul>
                         </nav>
                         <div className="offcanvas-widget-area">
@@ -62,9 +63,9 @@ class MobileMenu extends Component{
                             </div>
                             {/*Off Canvas Widget Social Start*/}
                             <div className="off-canvas-widget-social">
-                            <a href="#/" title="Facebook"><i className="fa fa-facebook" /></a>
-                            <a href="#/" title="Twitter"><i className="fa fa-twitter" /></a>
-                            <a href="#/" title="LinkedIn"><i className="fa fa-linkedin" /></a>
+                            <a href="#/" title="Facebook"><MDBIcon fab icon="facebook-f" /></a>
+                            
+                            <a href="#/" title="LinkedIn"><MDBIcon fab icon="linkedin" /></a>
                             {/* <a href="#/" title="Youtube"><i className="fa fa-youtube-play" /></a> */}
                             {/* <a href="#/" title="Vimeo"><i className="fa fa-vimeo-square" /></a> */}
                             </div>

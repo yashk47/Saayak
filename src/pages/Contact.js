@@ -36,7 +36,7 @@ class Contact extends Component{
                     <div className="row section-space--bottom--50">
                         <div className="col">
                             <div className="contact-map">
-                            <iframe title="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56353.568583203436!2d73.28452099156893!3d28.021479281813008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393fdd7bd90bbb89%3A0x4ce3121a7664816b!2sBikaner%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1575195012744!5m2!1sen!2sin" allowFullScreen></iframe>
+                            <iframe title="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7027.1398116526025!2d74.96090402495655!3d28.28105547843094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39149e1de7f2ce6f%3A0xa45fd5a84c2d8909!2sAgrasen%20Nagar%2C%20Churu%2C%20Rajasthan%20331001!5e0!3m2!1sen!2sin!4v1580762680131!5m2!1sen!2sin" allowFullScreen></iframe>
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ class Contact extends Component{
                             <ul>
                                 <li>
                                     <span className="icon"><i className="ion-android-map" /></span>
-                                    <span className="text"><span>Bikaner, Rajasthan,</span> India</span>
+                                    <span className="text"><span>D-285, Agarsen Nagar, Churu, Rajasthan (331001)</span> India</span>
                                 </li>
                                 <li>
                                     <span className="icon"><i className="ion-ios-telephone-outline" /></span>

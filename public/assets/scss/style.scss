@@ -66,3 +66,18 @@
     @import '5-pages/contact';
     @import '5-pages/404';
     @import '5-pages/landing'; 
+
+
+
+
+
+.zoompro {
+    transition: transform .5s ease-in-out;
+    z-index: 1;
+    
+  }
+ 
+  .zoompro:hover {
+    transform: scale(1.2);
+    z-index: 3;  
+  }

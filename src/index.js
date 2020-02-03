@@ -17,6 +17,9 @@ import PageNotFound from './pages/404';
 import NoMAtch from './pages/404';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
+import '@fortawesome/fontawesome-free/css/all.min.css'; import
+'bootstrap-css-only/css/bootstrap.min.css'; import
+'mdbreact/dist/css/mdb.css';
 
 class Root extends Component{
     render(){
@@ -25,15 +28,15 @@ class Root extends Component{
                 <Switch>
                     <Route exact path={`${process.env.PUBLIC_URL}/`} component={HomeOne}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/about-us`} component={About}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/services`} component={Services}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/service-details-left-sidebar`} component={ServiceDetailsLeftSidebar}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/service-details-right-sidebar`} component={ServiceDetailsRightSidebar}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/projects`} component={Projects}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/project-details`} component={ProjectDetails}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/blog-left-sidebar`} component={BlogLeftSidebar}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/blog-right-sidebar`} component={BlogRightSidebar}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/blog-details-left-sidebar`} component={BlogDetailsLeftSidebar}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/blog-details-right-sidebar`} component={BlogDetailsRightSidebar}/>
+                    {/* <Route exact path={`${process.env.PUBLIC_URL}/services`} component={Services}/> */}
+                    {/* <Route exact path={`${process.env.PUBLIC_URL}/service-details-left-sidebar`} component={ServiceDetailsLeftSidebar}/> */}
+                    {/* <Route exact path={`${process.env.PUBLIC_URL}/service-details-right-sidebar`} component={ServiceDetailsRightSidebar}/> */}
+                    {/* <Route exact path={`${process.env.PUBLIC_URL}/projects`} component={Projects}/> */}
+                    {/* <Route exact path={`${process.env.PUBLIC_URL}/project-details`} component={ProjectDetails}/> */}
+                    {/* <Route exact path={`${process.env.PUBLIC_URL}/blog-left-sidebar`} component={BlogLeftSidebar}/> */}
+                    {/* <Route exact path={`${process.env.PUBLIC_URL}/blog-right-sidebar`} component={BlogRightSidebar}/> */}
+                    {/* <Route exact path={`${process.env.PUBLIC_URL}/blog-details-left-sidebar`} component={BlogDetailsLeftSidebar}/> */}
+                    {/* <Route exact path={`${process.env.PUBLIC_URL}/blog-details-right-sidebar`} component={BlogDetailsRightSidebar}/> */}
                     <Route exact path={`${process.env.PUBLIC_URL}/contact-us`} component={Contact}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/404`} component={PageNotFound}/>
                     <Route component={NoMAtch} />

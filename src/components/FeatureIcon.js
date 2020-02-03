@@ -4,9 +4,9 @@ class FeatureIcon extends Component{
     render(){
 
         let data = [
-            {featureIcon: "feature-1.png", featureTitle: "Top Rated", featureDescription: "Lorem ipsum dolor sit amet, consec tetur adipisicing elit. Officia odio eum corporis consequatur."},
-            {featureIcon: "feature-2.png", featureTitle: "Best Quality", featureDescription: "Lorem ipsum dolor sit amet, consec tetur adipisicing elit. Officia odio eum corporis consequatur."},
-            {featureIcon: "feature-3.png", featureTitle: "Low Cost", featureDescription: "Lorem ipsum dolor sit amet, consec tetur adipisicing elit. Officia odio eum corporis consequatur."}
+            {featureIcon: "feature-1.png", featureTitle: "Top Rated", },
+            {featureIcon: "feature-2.png", featureTitle: "Best Quality", },
+            {featureIcon: "feature-3.png", featureTitle: "Low Cost", }
         ];
 
         let Datalist = data.map((val, i)=>{
@@ -18,7 +18,7 @@ class FeatureIcon extends Component{
                     </div>
                     <div className="content">
                         <h3>{val.featureTitle}</h3>
-                        <p>{val.featureDescription}</p>
+                        
                     </div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@ class FeatureIcon extends Component{
         return(
             <div>
                 {/*Feature section start*/}
-                <div className={`feature-section section-space--inner--100 ${this.props.background}`}>
+                <div className={`feature-section section-space--inner--50 ${this.props.background}`}>
                     <div className="container">
                         <div className="col-lg-12">
                             <div className="feature-item-wrapper">

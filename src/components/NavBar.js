@@ -19,8 +19,8 @@ class NavBar extends Component{
                                             <li>
                                                 <a href={`${process.env.PUBLIC_URL}/`}>HOME</a>
                                             </li>
-                                            {/* <li><a href={`${process.env.PUBLIC_URL}/about-us`}>ABOUT</a></li>
-                                            <li className="has-children has-children--multilevel-submenu">
+                                            <li><a href={`${process.env.PUBLIC_URL}/about-us`}>ABOUT US</a></li>
+                                            {/* <li className="has-children has-children--multilevel-submenu">
                                                 <a href={`${process.env.PUBLIC_URL}/services`}>SERVICE</a>
                                                 <ul className="submenu">
                                                 <li><a href={`${process.env.PUBLIC_URL}/services`}>Service Page</a></li>
