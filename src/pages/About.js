@@ -51,12 +51,12 @@ class About extends Component{
                 {/*About section start*/}
                 <div className="about-section section-space--inner--bottom--120">
                 <div className="container" >
-                   <div className="about-content-two" style={{textAlignLast: "center"}}>
+                   <div className="about-content-two" style={{textAlignLast: "center" , textAlign: "-webkit-center"}}>
                         <h1>Welcome to Sayakk</h1>
                         <h3>We are committed to providing a world class services</h3>
                         <h4>Sayakk is committed to providing a world class, smooth business to shippers and truckers making their delivery pace as swift as an arrow.</h4>
                         <p>Founded in Jan 2020, Sayakk thrives to become India's No.1 trucking platform, enabling truckers to book a load and shippers to access the right truck with the best price with just one click.</p>
-                        <a href="./Contact.js" className="ht-btn--default ht-btn--default--dark-hover section-space--top--20">Contact Us</a>
+                        <a href="/contact-us" className="ht-btn--default ht-btn--default--dark-hover section-space--top--20">Contact Us</a>
                     </div>
                     
                     
