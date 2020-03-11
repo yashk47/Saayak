@@ -4,7 +4,7 @@ import FeatureIcon from '../components/FeatureIcon';
 import Funfact from '../components/Funfact';
 import TeamMemberGrid from '../components/TeamMemberGrid';
 
-import Footer from '../components/Footer';
+import Footer from '../components/Footer2';
 import MobileMenu from '../components/MobileMenu';
 import ModalVideo from 'react-modal-video'
 class About extends Component{

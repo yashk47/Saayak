@@ -74,21 +74,21 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 730px;
+        height: 100vh;
         width: 580px;
         max-width: 100%;
         
 
         @media #{$laptop-device, $desktop-device}{
-            height: 600px;
+            height: 100vh;
         }
 
         @media #{$tablet-device}{
-            height: 550px;
+            height: 100vh;
         }
 
         @media #{$large-mobile}{
-            height: 450px;
+            height: 100vh;
         }
 
         & > * {

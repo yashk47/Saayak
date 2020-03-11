@@ -9,7 +9,7 @@ import TeamJob from './components/TeamJob';
 import TestimonialSlider from './components/TestimonialSlider';
 import BlogGrid from './components/BlogGrid';
 import BrandLogoSlider from './components/BrandLogoSlider';
-import Footer from './components/Footer';
+import Footer from './components/Footer2';
 import MobileMenu from './components/MobileMenu';
 
 class HomeOne extends Component{
