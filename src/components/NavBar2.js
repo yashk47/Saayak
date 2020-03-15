@@ -24,7 +24,7 @@ class NavBar extends React.Component{
           <Router>
             <MDBNavbar color="bg-primary" fixed="top" dark expand="md" scrolling transparent>
               <MDBNavbarBrand href={`${process.env.PUBLIC_URL}/`}>
-                <strong><img src="assets/img/logo/logo.png" className="img-fluid" alt="Logo" /></strong>
+                <img src="assets/img/logo/logo.png" alt="Logo" />
               </MDBNavbarBrand>
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
